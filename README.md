@@ -8,7 +8,7 @@ Reproduction of Figure 3 from Oliveira et al., *High-definition spatial transcri
 
 ![Figure 3a](figures/fig3a_joint.png)
 
-Joint clustering of the three samples (19 clusters). Tumor clusters are patient-specific (P1 = Tumor II, P2 = Tumor III, P5 = Tumor IV, matched to the authors' subtypes); normal compartments are shared.
+Joint clustering of the three samples (19 clusters).
 
 ### Figure 3b. Spatial mapping with deconvolution using single-cell reference
 
