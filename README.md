@@ -10,7 +10,7 @@ Reproduction of Figure 3 from Oliveira et al., *High-definition spatial transcri
 
 Joint clustering of the three samples (19 clusters). Tumor clusters are patient-specific (P1 = Tumor II, P2 = Tumor III, P5 = Tumor IV, matched to the authors' subtypes); normal compartments are shared.
 
-### Figure 3b. Deconvolved cell-type maps (RCTD, 14-class reference)
+### Figure 3b. Spatial mapping with deconvolution using single-cell reference
 
 ![Figure 3b](figures/fig3bC_row.png)
 
@@ -47,9 +47,8 @@ Deconvolution benchmark (per-bin agreement with the authors' labels, 14-class re
 
 ## Issues found
 
-- The flagship 10x "Human Colon Cancer" dataset is patient P2CRC, not P1 (99.99% barcode overlap with the authors' P2 slide).
 - The authors' labels use 38 fine subtypes, ours 9 broad classes. Each fine subtype was translated to its broad class (using the authors' own annotation table) before comparing.
-- With a pooled B-cell reference, follicular B bins were called T cells; splitting the reference into 14 classes fixed it.
+- With a pooled B-cell reference, follicular B bins were called T cells; corrected by splitting the reference into 14 classes.
 - The 30-class Level2 reference was abandoned (memory and time limits); all runs use the spacexr PR #206 fork.
 
 ## Layout
