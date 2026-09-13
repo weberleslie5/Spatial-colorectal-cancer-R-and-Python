@@ -1,4 +1,4 @@
-# Reproducing Figure 3 of Oliveira et al. (2025), Visium HD colorectal cancer
+# Reproducing Figure 3 of Oliveira et al. (2025), Visium HD colorectal cancer, Python and R
 
 Reproduction of Figure 3 from Oliveira et al., *High-definition spatial transcriptomic profiling of immune cell populations in colorectal cancer*, Nature Genetics 57, 1512-1523 (2025), with two parallel pipelines: R (Seurat, RCTD) and Python (scanpy). Three patients (P1CRC, P2CRC, P5CRC), 8 um bins, 1,088,534 bins after QC.
 
