@@ -2,8 +2,6 @@
 
 Reproduction of Figure 3 from Oliveira et al., *High-definition spatial transcriptomic profiling of immune cell populations in colorectal cancer*, Nature Genetics 57, 1512-1523 (2025), with two parallel pipelines: R (Seurat, RCTD) and Python (scanpy). Three patients (P1CRC, P2CRC, P5CRC), 8 um bins, 1,088,534 bins after QC.
 
-Code assisted by Claude (Anthropic); the analysis and its validation are mine.
-
 ## Figures
 
 ### Figure 3a. Unsupervised clusters, joint analysis of the three patients
@@ -69,5 +67,7 @@ notes/    daily lab notebook
 - Visium HD binned outputs: 10x Genomics public datasets (P1, P2, P5)
 - Single-cell reference: Chromium Flex matrix, GEO GSE280318
 - Authors' metadata: github.com/10XGenomics/HumanColonCancer_VisiumHD
+
+Code assisted by Claude (Anthropic); the analysis and its validation are mine.
 
 Details in METHODS.md.
