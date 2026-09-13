@@ -1,0 +1,19 @@
+"cluster","identity","confidence"
+"0","Tumor",1
+"1","Tumor",1
+"2","Myeloid",0.4
+"3","Fibroblast",0.98
+"4","Endothelial",0.66
+"5","B cells",0.63
+"6","Intestinal Epithelial",0.98
+"7","Tumor",1
+"8","Tumor",1
+"9","Smooth Muscle",0.76
+"10","Tumor",1
+"11","Intestinal Epithelial",1
+"12","Fibroblast",0.92
+"13","T cells",0.59
+"14","Intestinal Epithelial",0.75
+"15","Tumor",0.75
+"16","Myeloid",0.56
+"17","Tumor",1
