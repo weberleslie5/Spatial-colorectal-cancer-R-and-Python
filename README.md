@@ -45,11 +45,6 @@ Deconvolution benchmark (per-bin agreement with the authors' labels, 14-class re
 | P2CRC  | 91.8% |
 | P5CRC  | 91.4% |
 
-## Issues found
-
-- The authors' labels use 38 fine subtypes, ours 9 broad classes. Each fine subtype was translated to its broad class (using the authors' own annotation table) before comparing.
-- With a pooled B-cell reference, follicular B bins were called T cells; corrected by splitting the reference into 14 classes.
-- The 30-class Level2 reference was abandoned (memory and time limits); all runs use the spacexr PR #206 fork.
 
 ## Layout
 
