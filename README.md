@@ -2,6 +2,26 @@
 
 Reproduction of Figure 3 from Oliveira et al., *High-definition spatial transcriptomic profiling of immune cell populations in colorectal cancer*, Nature Genetics 57, 1512-1523 (2025), with two parallel pipelines: R (Seurat, RCTD) and Python (scanpy). Three patients (P1CRC, P2CRC, P5CRC), 8 um bins, 1,088,534 bins after QC.
 
+
+## Results
+
+Deconvolution concordance (per-bin agreement with the Oliveira et al.' labels, 14-class reference):
+
+| Sample | Agreement |
+|--------|-----------|
+| P1CRC  | 91.7% |
+| P2CRC  | 91.8% |
+| P5CRC  | 91.4% |
+
+Clustering concordance (adjusted Rand index, shared bins):
+
+| Comparison | P1CRC | P2CRC | P5CRC | Overall |
+|---|---|---|---|---|
+| Joint R vs. Oliveira et al. | 0.816 | 0.605 | 0.730 | - |
+| Joint R vs. joint Python | 0.454 | 0.418 | 0.498 | 0.355 |
+
+
+
 ## Figures
 
 ### Figure 3a. Unsupervised clusters, joint analysis of the three patients
@@ -28,22 +48,7 @@ Joint clustering of the three samples (19 clusters).
 
 ![QC](figures/fig_qc.png)
 
-## Results
 
-Clustering concordance (adjusted Rand index, shared bins):
-
-| Comparison | P1CRC | P2CRC | P5CRC | Overall |
-|---|---|---|---|---|
-| Joint R vs. Oliveira et al. | 0.816 | 0.605 | 0.730 | - |
-| Joint R vs. joint Python | 0.454 | 0.418 | 0.498 | 0.355 |
-
-Deconvolution benchmark (per-bin agreement with the authors' labels, 14-class reference):
-
-| Sample | Agreement |
-|--------|-----------|
-| P1CRC  | 91.7% |
-| P2CRC  | 91.8% |
-| P5CRC  | 91.4% |
 
 
 ## Layout
