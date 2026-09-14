@@ -5,7 +5,7 @@ Reproduction of Figure 3 from Oliveira et al., *High-definition spatial transcri
 
 ## Results
 
-Deconvolution concordance (per-bin agreement with the Oliveira et al.' labels, 14-class reference):
+Deconvolution concordance (per-bin agreement with Oliveira et al.' labels, 14-class reference):
 
 | Sample | Agreement |
 |--------|-----------| 
