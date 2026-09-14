@@ -8,7 +8,7 @@ Reproduction of Figure 3 from Oliveira et al., *High-definition spatial transcri
 Deconvolution concordance (per-bin agreement with the Oliveira et al.' labels, 14-class reference):
 
 | Sample | Agreement |
-|--------|-----------|
+|--------|-----------| 
 | P1CRC  | 91.7% |
 | P2CRC  | 91.8% |
 | P5CRC  | 91.4% |
