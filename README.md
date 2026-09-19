@@ -68,6 +68,6 @@ notes/    daily lab notebook
 - Single-cell reference: Chromium Flex matrix, GEO GSE280318
 - Authors' metadata: github.com/10XGenomics/HumanColonCancer_VisiumHD
 
-Code assisted by Claude (Anthropic); the analysis and its validation are mine.
+Code assisted by Claude (Anthropic).
 
 Details in METHODS.md.
